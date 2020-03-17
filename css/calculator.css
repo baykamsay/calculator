@@ -39,23 +39,16 @@ body {
     justify-content: space-between;
 }
 
-p {
-    margin: inherit;
-    font-size: 2.5rem;
-    font-family: "Courier New", Courier, monospace;
-}
-
 .screen{
     height: 100px;
     display: flex;
     flex-flow: column;
     justify-content: center;
-}
-
-.screen p {
     text-align: end;
     color: white;
-    margin-right: 1rem;
+    padding-right: 1rem;
+    font-size: 2.5rem;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .calc-button {
@@ -84,11 +77,11 @@ p {
 }
 
 .function-button:hover {
-    background-color: #0070BF;
+    background-color: #0086E6;
 }
 
 .function-button:active {
-    background-color: #0086E6;
+    background-color: #0070BF;
 }
 
 .width2 {
